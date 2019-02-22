@@ -1,0 +1,80 @@
+body 
+{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container 
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#intro 
+{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 650px;
+    padding-bottom: 20px;
+    font-size: 16px 2vw;
+    margin-top: 10px;
+    
+}
+
+#lets-get-started-button 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.main-body-homepage
+{
+    display: none;
+}
+
+.navbar ul 
+{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 550px;
+    text-align: center;
+}
+
+.navbar li
+{
+    display: inline-block;
+}
+
+.navbar li a 
+{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.active 
+{
+    /* color: green; */
+    background-color: grey;
+    
+}
